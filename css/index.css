@@ -1,0 +1,244 @@
+* {
+       
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+}
+
+#drop {
+    position: relative;
+}
+
+#categories {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 230px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    top: 100px;
+    transition: 0.5s;
+    z-index: 99;
+}
+
+#drop:hover #categories {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-70px);
+}
+
+.top-bar-color {
+    background-color: #2DCCD3;
+}
+
+.site-logo {
+    width: 40%;
+    margin-left: -36%;
+}
+
+.card-bg-img {
+    /* background-image: url(../images/brooms.jpg); */
+    /* width: 199%; */
+    /* width: 100%; */
+    /* margin: 0px auto; */
+    height: 300px;
+    /* object-fit: cover; */
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.pro-card-bg-img {
+    object-fit: contain;
+    height: 300px;
+}
+
+.pro-card-outer-img {
+    height: 300px;
+}
+
+
+.black-box {
+    background-color: rgba(0, 0, 0, 0.572);
+    position: absolute;
+    width: 76%;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: -38%;
+    display: grid;
+    place-items: center;
+}
+
+.card-outer-img {
+    overflow: hidden;
+    /* object-fit: contain; */
+    transition: 0.5s;
+
+}
+
+.card-outer-img:hover .card-bg-img {
+    transform: scale(1.1);
+}
+
+.view-btn {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.view-btn:hover {
+    background-color: rgba(205, 205, 205, 0.961);
+
+}
+
+#left-icon {
+    position: absolute;
+    font-size: 40px;
+    left: -40px;
+    color: black;
+}
+
+#right-icon {
+    position: absolute;
+    font-size: 40px;
+    right: -40px;
+    color: black;
+}
+/* @media screen and (min-width:) {
+    
+} */
+.pro-cap {
+    background-color: rgba(0, 0, 0, 0.619);
+    color: white;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.pro-cap>h5 {
+    font-size: 15px;
+}
+
+.bro-btn {
+    background: linear-gradient(#3F7BBC, #2C6EB6, #135DAD);
+    padding: 16px 25px;
+    border-radius: 5px;
+    border: 1px solid #0088CC;
+}
+
+.back-img,
+.above-img {
+    transition: 0.5s;
+    cursor: pointer;
+    height: 250px;
+
+    object-fit: contain;
+
+}
+
+.above-img {
+    position: absolute;
+    left: 0px;
+}
+
+.card-outer-div>.back-img {
+    opacity: 1;
+}
+
+.card-outer-div>.above-img {
+    opacity: 0;
+}
+
+.card-outer-div:hover>.back-img {
+    opacity: 0;
+
+}
+
+.card-outer-div:hover>.above-img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.inquiry-btn {
+    padding: 9px 25px;
+    text-align: center;
+    border: 2px solid #1E73BE;
+    transition: 0.5s;
+    font-weight: 500;
+
+}
+
+.inquiry-btn:hover {
+    background-color: #1E73BE;
+    color: white;
+}
+
+
+.clients-logo {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+}
+
+.clients-logo>img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+
+}
+
+.footer {
+    border-top: 3px solid #EBEBEB;
+}
+
+.footer-bottom {
+    border-top: 2px solid #EBEBEB;
+}
+
+.footer-logo {
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+.contact-form {
+    background: #EBEFF5;
+    padding: 15px;
+}
+
+.submit-btn {
+    background-color: #E77817;
+    padding: 8px 20px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.banner {
+    height: 370px;
+}
+
+.img-border {
+    border: 3px solid #2DCCD3;
+}
+#left-icon{
+    color:black;
+}
+
+.bg-banner{
+    background-image: url(images/Gebi-Factory-Image.html);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+}
+
+@media screen and (max-width:1199px) {
+    .site-logo {
+        width: 80%;
+        margin-left: -16%;
+    }
+}
